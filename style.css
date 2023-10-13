@@ -50,7 +50,7 @@ h1 {
 }
 
 .home-img img {
-    width: 500px;
+    width: 550px;
     justify-content: center;
 }
 
@@ -92,7 +92,7 @@ h1 {
 }
 
 .doctor {
-    padding: 36px 0;
+    padding: 48px 0;
     display: flex;
     min-height: 100vh;
     align-items: center;
@@ -141,6 +141,122 @@ h1 {
     color: #1F77F2;
 }
 
+.app {
+    padding: 48px 0;
+    overflow: hidden;
+}
+
+.app .heading {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.app .heading p {
+    color: #838fa1;
+}
+
+.app-content {
+    display: flex;
+}
+
+.app-content img {
+    width: 200px;
+}
+
+.app-content .app-left {
+    flex: 1.5;
+    margin-right: 3rem;
+}
+
+.app-content .app-right {
+    flex: 0.5;
+}
+
+.app-up {
+    background-color: #f7f7f7;
+    margin-bottom: 2rem;
+    padding: 0 36px;
+    padding-top: 28px;
+    border-radius: 48px;
+    display: flex;
+}
+
+.app-up .app-up-text {
+    flex: 1.5;
+}
+
+.app-up .app-up-img {
+    flex: 0.5;
+}
+
+.app-bottom .app-bottom-text {
+    flex: 1.5;
+}
+
+.app-bottom .app-bottom-text p {
+    color: #51565E;
+}
+
+.app-bottom .app-bottom-text p {
+    color: #51565E;
+}
+
+.app-bottom .app-bottom-img {
+    flex: 0.5;
+    padding-right: 24px;
+}
+
+.app-bottom {
+    background-color: #f7f7f7;
+    padding: 0 36px;
+    padding-top: 28px;
+    border-radius: 48px;
+    display: flex;
+}
+
+.app-right {
+    background-color: #f7f7f7;
+    padding: 0 36px;
+    padding-top: 28px;
+    border-radius: 48px;
+}
+
+.app-right img {
+    width: 300px;
+}
+
+.footer {
+    background-color: #1F77F2;
+    padding-top: 48px;
+}
+
+.footer .heading {
+    padding-top: 0px;
+    color: #fff;
+}
+
+.footer .footer-img p {
+    color: #fff;
+}
+
+.footer .footer-links {
+    text-align: center;
+}
+
+.footer .footer-links p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .footer-konsultasi {
+    text-align: center;
+}
+
+.footer .footer-konsultasi p a {
+    text-decoration: none;
+    color: #fff;
+}
+
 @media (max-width:576px) {
     html {
         font-size: 80%;
@@ -173,5 +289,65 @@ h1 {
 
     .doctor-img img {
         width: 100%;
+        height: auto;
+    }
+
+    .app-content {
+        display: block;
+    }
+
+    .app-content img {
+        width: 125px;
+    }
+
+    .app-bottom {
+        display: block;
+    }
+
+    .app-up {
+        display: block;
+    }
+
+    .app-content .app-left {
+        margin-right: 0;
+    }
+
+    .app-content .app-right {
+        margin-top: 28px;
+        display: flex;
+    }
+
+    .app-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .app-right .app-right-text {
+        flex: 1.5;
+        padding-right: 12px;
+    }
+
+    .app-right .app-right-img {
+        flex: 0.5;
+    }
+
+    .footer .footer-konsultasi {
+        text-align: left;
+    }
+
+    .footer .footer-links {
+        text-align: left;
+    }
+
+    .footer .heading {
+        text-align: left;
+    }
+
+    .dokter-section {
+        min-height: auto;
+    }
+
+    .heading p br {
+        display: none;
     }
 }
