@@ -299,7 +299,7 @@ h1 {
 }
 
 .login-img .button {
-    padding: 12px;
+    padding: 12px 16px;
     background-color: #fff;
     border-radius: 48px;
 }
@@ -482,5 +482,9 @@ h1 {
 
     .login-img img {
         display: none;
+    }
+
+    nav .navbar-nav {
+        margin-bottom: 24px;
     }
 }
