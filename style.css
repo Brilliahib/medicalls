@@ -63,6 +63,14 @@ h1 {
     justify-content: center;
 }
 
+.button {
+    padding: 12px 36px;
+    background-color: #1F77F2;
+    text-decoration: none;
+    color: white;
+    border-radius: 48px;
+}
+
 .about {
     display: flex;
     align-items: center;
@@ -86,6 +94,11 @@ h1 {
     width: 100%;
     padding: 20px;
     border-radius: 48px;
+    transition: 0.3s;
+}
+
+.about .card:hover {
+    transform: scale(1.1);
 }
 
 .about .card-title {
@@ -272,6 +285,74 @@ h1 {
     color: #fff;
 }
 
+.loginPage {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #F8FBFF;
+}
+
+.loginPage .button {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.login-img .button {
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 48px;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-form {
+    display: flex;
+}
+
+.login-content {
+    display: flex;
+}
+
+.login-img {
+    flex: 1;
+    padding-top: 24px;
+}
+
+.login-form {
+    flex: 1;
+}
+
+.loginPage .form {
+    background-color: #fff;
+    padding: 48px;
+    border-radius: 48px;
+    color: #838fa1;
+}
+
+.login-other .button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.login-other {
+    display: block;
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+.form-heading {
+    margin-bottom: 48px;
+}
+
 /* LAPTOP */
 @media (max-width: 992px) {
     html {
@@ -393,5 +474,13 @@ h1 {
 
     .app-right {
         padding: 24px;
+    }
+
+    .login-content {
+        display: block;
+    }
+
+    .login-img img {
+        display: none;
     }
 }
