@@ -230,6 +230,12 @@ h1 {
     padding-top: 48px;
 }
 
+.footer .logo {
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
 .footer .heading {
     padding-top: 0px;
     color: #fff;
@@ -257,6 +263,18 @@ h1 {
     color: #fff;
 }
 
+/* LAPTOP */
+@media (max-width: 992px) {
+    html {
+        font-size: 75%;
+    }
+
+    .simply-countdown>.simply-section {
+        padding: 45px;
+    }
+}
+
+/* HANDPHONE */
 @media (max-width:576px) {
     html {
         font-size: 80%;
@@ -298,6 +316,7 @@ h1 {
 
     .app-content img {
         width: 125px;
+        padding-left: 12px;
     }
 
     .app-bottom {
@@ -331,6 +350,10 @@ h1 {
         flex: 0.5;
     }
 
+    .footer .footer-img img {
+        width: 100px;
+    }
+
     .footer .footer-konsultasi {
         text-align: left;
     }
@@ -349,5 +372,17 @@ h1 {
 
     .heading p br {
         display: none;
+    }
+
+    .app-bottom {
+        padding: 24px;
+    }
+
+    .app-up {
+        padding: 24px;
+    }
+
+    .app-right {
+        padding: 24px;
     }
 }
