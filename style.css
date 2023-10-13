@@ -14,6 +14,10 @@ nav li {
     color: #51565E;
 }
 
+nav li a:hover {
+    color: #1F77F2 !important;
+}
+
 h1 {
     font-size: 3em;
 }
